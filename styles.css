@@ -1,0 +1,35 @@
+body
+{
+  font-family: "Lucidia Console", monospace;
+  padding: 0;
+  margin: 0;
+  background-color: #5e6668;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.img1
+{
+  align-content: center;
+}
+
+ body{color: #ee9b00}
+
+.container
+{
+  width:75%;
+  margin: auto;
+  max-width: 1200px;
+  background-color: #282a36;
+  padding: 5px;
+}
+
+
+header
+{
+  color: #fb5454;
+	padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
