@@ -10,7 +10,8 @@ body
 
 .img1
 {
-  align-content: center;
+  display: none;
+  /* align-content: center; */
 }
 
  body{color: #ee9b00}
@@ -22,6 +23,7 @@ body
   max-width: 1200px;
   background-color: #282a36;
   padding: 5px;
+  border-radius: 20px;
 }
 
 
@@ -32,4 +34,96 @@ header
   padding-bottom: 15px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.boxes
+{
+  width: auto;
+}
+
+.box1
+{
+  display: none;
+  background-color: #5e6668;
+  color: #fb5454;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+.box2
+{
+  background-color: #5e6668;
+  color: #fb5454;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+a:link
+{
+  color: #fb5454;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: #9d0208;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #ad454c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active
+{
+  color: #fb5454;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media screen and (min-width:685px)
+{
+  .box1{display: block;}
+}
+
+@media screen and (min-width:1420px)
+{
+  .img1
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1
+  {
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body
+  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+  }
+
 }
